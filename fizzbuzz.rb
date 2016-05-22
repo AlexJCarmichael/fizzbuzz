@@ -1,5 +1,9 @@
 def fizzbuzz(n)
-  puts n
+  if n%3 == 0
+    puts "fizz"
+  else
+    puts n
+  end
 end
 
 100.times do |x|
