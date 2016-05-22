@@ -1,5 +1,7 @@
 def fizzbuzz(n)
-  if n%3 == 0
+  if n%5 == 0
+    puts "buzz"
+  elsif n%3 == 0
     puts "fizz"
   else
     puts n
